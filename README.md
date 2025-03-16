@@ -1,0 +1,1 @@
+basic python project template
