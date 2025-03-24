@@ -23,4 +23,4 @@ source $activate_path
 pip install --upgrade pip setuptools
 
 # install project in the venv
-pip install .[extra]
+pip install -e .[extra]
