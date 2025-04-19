@@ -14,6 +14,11 @@ trim_trailing_whitespace = true
 indent_size = 2
 indent_style = space
 
+# makefiles
+[Makefile]
+indent_style = tab
+tab_width = 4
+
 # markdown files
 [*.md]
 indent_size = 4
@@ -27,4 +32,9 @@ indent_style = space
 # shell files
 [*.sh]
 indent_size = 4
+indent_style = space
+
+# yaml files
+[*.{yaml,yml}]
+indent_size = 2
 indent_style = space
